@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Josefin+Sans:wght@600&family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@1,400;1,600&family=Roboto+Mono:wght@300&family=Rubik:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  min-height: 100vh;
+  background-color: "#010026";
+  @apply text-white;
+}
