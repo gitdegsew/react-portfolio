@@ -157,7 +157,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-1" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 font-popins">
            More than two years of experience in  full stack web and mobile application development(mern stack and flutter)
           </p>
         </motion.div>
@@ -183,7 +183,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-1" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 font-popins ">
           Not afraid to take risks and try new things. I am willing to take chances and experiment with different approaches. 
           </p>
         </motion.div>
@@ -208,7 +208,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-1" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 font-popins">
           Open-minded and willing to consider different perspectives and ideas. I'm not set in my  ways and am always looking for new ways to approach problems.
           </p>
         </motion.div>
