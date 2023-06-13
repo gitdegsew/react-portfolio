@@ -23,9 +23,8 @@ const MySkills = () => {
             MY <span className="text-red">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+          <p className="mt-10 mb-7 text-[18px] font-popins">
+            As a web and mobile application developer, I hava worked with the following frontend and backend  thechnologies.
           </p>
         </motion.div>
 
@@ -45,6 +44,94 @@ const MySkills = () => {
             <img alt="skills" className="z-10" src="assets/skills-image.png" />
           )}
         </div>
+      </div>
+      <div className="flex flex-col mt-20 text-center  " >
+        <h2 className="text-3xl font-playfair " >Techinical Skills</h2>
+        <div className="text-start" >
+          <h1 className="text-3xl text-[#8af17e] font-semibold font-opensans" >Frontend</h1>
+          <div className="flex justify-around flex-wrap  gap-20 my-10  p-10 " >
+            
+          
+          
+          <img  height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+          
+          
+         
+          
+          
+          
+          
+          
+          <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+          
+          
+          
+          <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          
+          
+          <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+          
+          
+          
+         
+          <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" />
+          
+
+          
+          <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+          
+          
+          <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
+          
+          
+          
+          
+          
+          </div>
+        </div>
+        <div className="text-start" >
+          <h1 className="text-3xl text-[#ffae19] font-semibold font-opensans" >Backend</h1>
+          <div className="flex justify-around gap-20 my-10  rounded-md flex-wrap p-10 " >
+        
+          <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+          
+          
+         
+          
+          
+         <div className="bg-white w-[100px] h-[100px] flex flex-col justify-center items-center p-10 ">
+         <img  className="w-[80px] h-[80px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+         <span className="text-black">express</span>
+         </div>
+          
+          
+          
+          
+          
+          
+          
+         <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+          
+          
+          
+         <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+          
+          
+         <img height='80px' width='80px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+          
+          
+          
+          
+         
+          
+          
+          
+          
+          
+          
+          </div>
+        </div>
+        
       </div>
 
       {/* SKILLS */}
@@ -71,9 +158,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-1" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+           More than two years of experience in  full stack web and mobile application development(mern stack and flutter)
           </p>
         </motion.div>
 
@@ -99,9 +184,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-1" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+          Not afraid to take risks and try new things. I am willing to take chances and experiment with different approaches. 
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -126,9 +209,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-1" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+          Open-minded and willing to consider different perspectives and ideas. I'm not set in my  ways and am always looking for new ways to approach problems.
           </p>
         </motion.div>
       </div>

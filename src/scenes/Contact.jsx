@@ -1,20 +1,30 @@
 import LineGradient from "../components/LineGradient";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
+import emailjs from '@emailjs/browser'; 
+import { useRef } from "react";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ejq07u9', 'template_44qn4ro', form.current, 'DcA1b1wolKQK55JqZ')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   const {
     register,
     trigger,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (e) => {
-    const isValid = await trigger();
-    if (!isValid) {
-      e.preventDefault();
-    }
-  };
+ 
 
   return (
     <section id="contact" className="contact py-48">
@@ -68,16 +78,18 @@ const Contact = () => {
           className="basis-1/2 mt-10 md:mt-0"
         >
           <form
-            target="_blank"
-            onSubmit={onSubmit}
-            action="https://formsubmit.co/abebawdegsew@gmail.com"
-            method="POST"
+            
+            onSubmit={sendEmail}
+            
+           
+            ref={form}
           >
             <input
               className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
               type="text"
+              name="from_name"
               placeholder="NAME"
-              {...register("name", {
+              {...register("from_name", {
                 required: true,
                 maxLength: 100,
               })}
@@ -92,8 +104,9 @@ const Contact = () => {
             <input
               className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
               type="text"
+              name="reply_to"
               placeholder="EMAIL"
-              {...register("email", {
+              {...register("reply_to", {
                 required: true,
                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
               })}
