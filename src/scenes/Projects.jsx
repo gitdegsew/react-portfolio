@@ -73,6 +73,7 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
+         
           <div
             className="flex justify-center text-center items-center rounded-md p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
@@ -80,7 +81,8 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project title="Socipedia" description ="A socipedia is a social media app to share pictures with friends. built using MERN stack" link="https://social-client-cyan.vercel.app/" />
-          <Project title="fitness-app" description="An app for searching exercises and watch youtube videos " link="https://fitness-app-kappa-five.vercel.app/" />
+          <Project title="Chat-app" description="real time chat app built MERN stack and socket.io with audio and video call functionality" link="https://chat-client-theta.vercel.app/" />
+          <Project title="fitness-app" description="An app for searching exercises and watch instructional youtube videos " link="https://fitness-app-kappa-five.vercel.app/" />
 
           {/* ROW 2 */}
           <Project title="E-commerce" description="E-commerce app built using react node and mongodb" link="https://ecom-client-nine.vercel.app/"  />
@@ -88,7 +90,7 @@ const Projects = () => {
           <Project title="Dashboard" description="An admin dashboard for managing users and orders " link="https://dashboard-ochre-sigma.vercel.app/" />
 
           {/* ROW 3 */}
-          <Project title="Chat-app" description="real time chat app built MERN stack and socket.io with audio and video call functionality" link="https://chat-client-theta.vercel.app/" />
+          
           <Project title="Food-recipe" description="A react app for seaching recipes of foods" link="https://react-foodrecipe-app.vercel.app/" />
           
           <div
